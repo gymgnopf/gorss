@@ -1,0 +1,48 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+# Ignore all executable files
+# This will match executables with no file extension on Unix-like systems
+/build/
+bin/
+*.o
+*.a
+*.out
+
+# Output of the go coverage tool
+*.out
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Dependency directories (remove the comment below if you use go modules)
+vendor/
+
+# Go workspace file
+go.work
+
+# Go modules
+/go/pkg/mod
+/go/pkg/sumdb
+
+# Log files
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Go build artifacts
+# These are specific directories or files that might contain your compiled binaries
+# Adjust the pattern to fit the actual paths in your project
+bin/
+build/
+
+# If you have a specific folder for your builds, such as 'dist' or 'output', add it here:
+dist/
+output/
